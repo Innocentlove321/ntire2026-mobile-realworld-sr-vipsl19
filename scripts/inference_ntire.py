@@ -139,7 +139,7 @@ def main():
     parser.add_argument('--large_kernel', type=int, default=21)
     parser.add_argument('--split_group', type=int, default=4)
     parser.add_argument('--block_type', choices=['spab', 'rg', 'rgm'], default='rg')
-    parser.add_argument('--span_root', default='/mnt/e/dengjiahao/SPAN')
+    parser.add_argument('--span_root', default='./SPAN', help='Path to SPAN repo (only needed for --arch span/spanflex)')
 
     parser.add_argument('--max_images', type=int, default=0, help='Limit number of images (0=all)')
     parser.add_argument('--sample', choices=['first', 'random'], default='first')
