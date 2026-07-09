@@ -2,6 +2,26 @@
 
 Official reproducibility package for our NTIRE 2026 Mobile Real-World Image Super-Resolution submission (Team VIPSL #19).
 
+## Paper
+
+**PLKSR-Rep: A Compact Large-Kernel CNN for Mobile Real-World Image Super-Resolution**
+JiaHao Deng, *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops*, 2026, pp. 1765-1773.
+
+- https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Deng_PLKSR-Rep_A_Compact_Large-Kernel_CNN_for_Mobile_Real-World_Image_Super-Resolution_CVPRW_2026_paper.pdf
+
+If you use this code or build upon our method, please cite:
+
+```bibtex
+@InProceedings{Deng_2026_CVPR,
+  author    = {Deng, JiaHao},
+  title     = {PLKSR-Rep: A Compact Large-Kernel CNN for Mobile Real-World Image Super-Resolution},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  month     = {June},
+  year      = {2026},
+  pages     = {1765-1773}
+}
+```
+
 ## Repository Contents
 
 - `plksr/` — model/network code
@@ -30,7 +50,7 @@ pip install -r requirements.txt
 
 Release page:
 
-- https://github.com/1695185764djh-del/ntire2026-mobile-realworld-sr-vipsl19/releases/tag/ntire2026-final
+- https://github.com/Innocentlove321/ntire2026-mobile-realworld-sr-vipsl19/releases/tag/ntire2026-final
 
 Required checkpoint:
 
@@ -41,7 +61,7 @@ Download and place into expected path:
 ```bash
 mkdir -p model_zoo/19_PLKSRRep_IQAv2Short
 wget -O model_zoo/19_PLKSRRep_IQAv2Short/net_g_1000.pth \
-  "https://github.com/1695185764djh-del/ntire2026-mobile-realworld-sr-vipsl19/releases/download/ntire2026-final/net_g_1000.pth"
+  "https://github.com/Innocentlove321/ntire2026-mobile-realworld-sr-vipsl19/releases/download/ntire2026-final/net_g_1000.pth"
 ```
 
 ## Run Inference
@@ -87,3 +107,4 @@ The `ntire2026-final` release includes:
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](./LICENSE).
+
